@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6bbfa042-45d3-4411-aa7e-9960cf7aaed5" name="Default Changelist" comment="" />
+    <list default="true" id="e1bd322d-e98e-4b53-bbe6-f0339da71959" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/GitHubController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/GitHubAuthentication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/GitHubPullRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/HttpClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/error.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/pullRequest.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/repo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -116,7 +130,7 @@
       <path value="$PROJECT_DIR$/vendor/psr/http-message" />
     </include_path>
   </component>
-  <component name="ProjectId" id="1h5QDBxRHFVmwtR6VScHeI1uVok" />
+  <component name="ProjectId" id="1h5gR7YwXrTtNUJ5QSDdaBMy5KP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -124,7 +138,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../blog-at-laravel" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -144,12 +158,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6bbfa042-45d3-4411-aa7e-9960cf7aaed5" name="Default Changelist" comment="" />
-      <created>1599298352217</created>
+      <changelist id="e1bd322d-e98e-4b53-bbe6-f0339da71959" name="Default Changelist" comment="" />
+      <created>1599306356513</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1599298352217</updated>
-      <workItem from="1599298353430" duration="3318000" />
+      <updated>1599306356513</updated>
+      <workItem from="1599306357758" duration="2121000" />
+      <workItem from="1599310119897" duration="15261000" />
+      <workItem from="1599373913283" duration="32802000" />
+      <workItem from="1599465269827" duration="3097000" />
     </task>
     <servers />
   </component>
@@ -157,9 +174,33 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="498" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599306354360">
+    <state x="474" y="203" width="491" height="387" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599395293290">
       <screen x="65" y="27" width="1301" height="741" />
     </state>
-    <state x="498" y="154" width="424" height="484" key="FileChooserDialogImpl/65.27.1301.741@65.27.1301.741" timestamp="1599306354360" />
+    <state x="474" y="203" width="491" height="387" key="#com.intellij.fileTypes.FileTypeChooser/65.27.1301.741@65.27.1301.741" timestamp="1599395293290" />
+    <state x="448" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599376721690">
+      <screen x="65" y="27" width="1301" height="741" />
+    </state>
+    <state x="448" y="154" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/65.27.1301.741@65.27.1301.741" timestamp="1599376721690" />
+    <state x="498" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1599465671021">
+      <screen x="65" y="27" width="1301" height="741" />
+    </state>
+    <state x="498" y="154" width="424" height="484" key="FileChooserDialogImpl/65.27.1301.741@65.27.1301.741" timestamp="1599465671021" />
+    <state x="496" y="121" width="429" height="551" key="RollbackChangesDialog" timestamp="1599404337299">
+      <screen x="65" y="27" width="1301" height="741" />
+    </state>
+    <state x="496" y="121" width="429" height="551" key="RollbackChangesDialog/65.27.1301.741@65.27.1301.741" timestamp="1599404337299" />
+    <state x="329" y="57" width="762" height="679" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599468497126">
+      <screen x="65" y="27" width="1301" height="741" />
+    </state>
+    <state x="329" y="57" width="762" height="679" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.27.1301.741@65.27.1301.741" timestamp="1599468497126" />
+    <state x="422" y="152" width="587" height="488" key="find.popup" timestamp="1599467589516">
+      <screen x="65" y="27" width="1301" height="741" />
+    </state>
+    <state x="422" y="152" width="587" height="488" key="find.popup/65.27.1301.741@65.27.1301.741" timestamp="1599467589516" />
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1599411533709">
+      <screen x="65" y="27" width="1301" height="741" />
+    </state>
+    <state x="378" y="89" width="672" height="678" key="search.everywhere.popup/65.27.1301.741@65.27.1301.741" timestamp="1599411533709" />
   </component>
 </project>

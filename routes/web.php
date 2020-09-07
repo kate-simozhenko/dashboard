@@ -12,7 +12,10 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+Route::get('/', 'GitHubController@index')->name('main');
+Route::post('/', 'GitHubController@getPullRequests');
+Route::get('/token', 'GitHubController@setToken');
+Route::get('/login', 'GitHubController@authenticate');
+Route::get('/logout', 'GitHubController@logout');
+Route::get('/{owner}/{repo}/update-status/{pullRequestNumber}', 'GitHubController@updatePullRequestStatus');
 
-Route::get('/', function () {
-    return view('welcome');
-});
