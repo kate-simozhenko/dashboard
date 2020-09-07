@@ -17,5 +17,5 @@ Route::post('/', 'GitHubController@getPullRequests');
 Route::get('/token', 'GitHubController@setToken');
 Route::get('/login', 'GitHubController@authenticate');
 Route::get('/logout', 'GitHubController@logout');
-Route::get('/{owner}/{repo}/update-status/{pullRequestNumber}', 'GitHubController@updatePullRequestStatus');
+Route::get('/update-status/{owner}/{repo}/{pullRequestNumber}', 'GitHubController@updatePullRequestStatus');
 
