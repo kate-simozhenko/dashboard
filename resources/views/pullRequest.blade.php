@@ -8,7 +8,7 @@
             </h2>
             <p class="font-weight-light font-italic">#{{ $pullRequest['number'] }} opened at {{ $pullRequest['created_at'] }} by {{ $pullRequest['user'] }}</p>
             @if($closePermission)
-                <a href="{{ $repository['owner'] . '/' .$repository['repo'] . '/update-status/' . $pullRequest['number'] }}">
+                <a href="{{ '/update-status/' . $repository['owner'] . '/' .$repository['repo'] . '/' . $pullRequest['number'] }}">
                     Close
                 </a>
             @endif
